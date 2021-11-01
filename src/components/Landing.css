@@ -1,0 +1,34 @@
+.input {
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 20px;
+  transition: all 1s ease;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.item-container {
+  position: relative;
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(90% - 4rem);
+  max-width: 1200px;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 3rem auto 0px;
+}
+
+.error {
+  color: rgb(107, 0, 0);
+}
